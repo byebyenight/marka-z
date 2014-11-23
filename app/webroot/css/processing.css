@@ -1,0 +1,56 @@
+.piece {
+      -webkit-animation: 1s ease-in-out slow-bounce alternate infinite;
+        animation: 1s ease-in-out slow-bounce alternate infinite;
+          color: #fff;
+            display: block;
+              font: 700 14px 'lato', sans-serif;
+                letter-spacing: 1px;
+                  outline: none;
+                    position: absolute;
+                      text-transform: uppercase;
+}
+.piece[data-track='1'] {
+      -webkit-animation-delay: 200ms;
+        -webkit-animation-duration: 1.2s;
+          animation-delay: 200ms;
+            animation-duration: 1.2s;
+              left: 5%;
+                top: 10%;
+}
+
+.piece[data-track='2'] {
+  -webkit-animation-delay: 600ms;
+    -webkit-animation-duration: 1s;
+      animation-delay: 600ms;
+        animation-duration: 1s;
+          left: 50%;
+            bottom: 50%;
+}
+
+.piece[data-track='3'] {
+  -webkit-animation-delay: 800ms;
+    -webkit-animation-duration: 1.6s;
+      animation-delay: 800ms;
+        animation-duration: 1.6s;
+          bottom: 0;
+            left: 50%;
+}
+@-webkit-keyframes slow-bounce {
+      from {
+              -webkit-transform: translateY(-10%);
+                }
+
+                  to {
+                          -webkit-transform: translateY(10%);
+                            }
+}
+
+@keyframes slow-bounce {
+      from {
+              transform: translateY(-10%);
+                }
+
+                  to {
+                          transform: translateY(10%);
+                            }
+}

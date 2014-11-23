@@ -1,0 +1,8 @@
+body {
+background: url('../img/bkg_animation.png') no-repeat center bottom fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.edgeLoad-EDGE-233725881 { visibility:hidden; }

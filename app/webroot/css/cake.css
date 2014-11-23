@@ -1,0 +1,90 @@
+body{
+margin:0;
+padding:0;
+background:#d0e4fe;;
+background:url('../img/bkg2.jpg') no-repeat;
+background-size: 100%;
+}
+h1{
+margin:0;
+color:orange;
+text-align:center;
+}
+#header{
+position:relative;
+background:#333;
+margin:0;
+padding:10px;
+}
+#container{
+margin:0;
+padding:0;
+}
+#content{
+width:800px;
+padding:5px;
+margin:0 auto;
+}
+#preview{
+float:left;
+width:100px;
+height200px;
+background-color:red;
+}
+ul{
+list-style:none;
+padding-left:150px;
+margin:0;
+}
+li{
+padding-left: 1em;
+text-indent: -.7em;
+padding:10px;
+}
+ul li a{
+font: bold 16px Arial,Helvetica,sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-variant: normal;
+font-weight: bold;
+line-height: normal;
+text-decoration:none;
+color:#4b4b4b;
+}
+li:before {
+    content: '\00b7';
+    /*color:rgb(117,121,71)*/;
+     color:rgb(114,83,52);
+    /*color: #4aa8db; /* or whatever color you prefer */
+    font-size:100px;
+    line-height:24px;
+    vertical-align:middle;
+}
+.box{
+    display: none;
+    width: 100%;
+}
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+#card_today{
+background-color:white;
+margin:0 auto;
+width:350px;
+height:400px;
+margin-top:50px;
+border-radius:25px;
+}
+#box_today{
+/*background-color:blue;*/
+margin:0 auto;
+width:350px;
+}
+#action{
+margin:0 auto;
+}
+

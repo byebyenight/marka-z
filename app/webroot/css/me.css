@@ -1,0 +1,17 @@
+.content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#namecard {
+margin: 0 auto;
+width: 808px;
+height: 610px;
+background: url('../img/me_sprite.png') 0 0;
+}
+
+#namecard:hover {
+    width: 808px;
+    height: 610px;
+    background: url('../img/me_sprite.png') 809px 0;
+}

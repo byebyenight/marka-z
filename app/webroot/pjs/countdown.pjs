@@ -1,0 +1,62 @@
+var i = 0;
+var days = 0;
+var hours = 0;
+var seconds = 0;
+var diff = null;
+var gc = null;
+var today = null,end = null;
+var font = null;
+function setup() {
+$p.size(600,400);
+$p.background(0);
+$p.frameRate(2);
+$p.fill(255,0,0);
+
+font = $p.createFont("High speed", 72);
+    $p.background(0);
+$p.textFont(font);
+gc=new GregorianCalendar();            
+var month =  gc.get(GregorianCalendar.MONTH);            
+var day =  gc.get(GregorianCalendar.DAY_OF_MONTH);
+var year =  gc.get(GregorianCalendar.YEAR);
+
+today = gc;
+end = new GregorianCalendar(year, 12, 1);
+diff = (end.getTimeInMillis()-today.getTimeInMillis())/1000;
+days = $p.__int_cast(diff)/3600/24;
+hours = $p.__int_cast(diff) % (3600*24)/3600;
+seconds = $p.__int_cast(diff) % 60;
+
+$p.textAlign($p.CENTER);
+$p.text(days, $p.width*1/5, $p.height/2); 
+$p.text(hours, $p.width/2, $p.height/2); 
+$p.text(seconds, $p.width*4/5, $p.height/2);
+}
+$p.setup = setup;
+function draw() {
+gc=new GregorianCalendar();            
+var month =  gc.get(GregorianCalendar.MONTH);            
+var day =  gc.get(GregorianCalendar.DAY_OF_MONTH);
+var year =  gc.get(GregorianCalendar.YEAR);
+
+today = gc;
+end = new GregorianCalendar(year, 12, 1);
+diff = (end.getTimeInMillis()-today.getTimeInMillis())/1000;
+days = $p.__int_cast(diff)/3600/24;
+hours = $p.__int_cast(diff) % (3600*24)/3600;
+seconds = $p.__int_cast(diff) % 60;
+
+i++;
+$p.background(0);
+$p.textFont(font);
+$p.textAlign($p.CENTER);
+if(i % 2==1){
+$p.background(0);
+$p.text(days, $p.width*1/5, $p.height/2); 
+$p.text(hours, $p.width/2, $p.height/2); 
+$p.text(seconds, $p.width*4/5, $p.height/2);
+} else {
+
+}
+}
+$p.draw = draw;

@@ -1,0 +1,30 @@
+%(num_kws)s add'l keywords =
+%(opportunity_name)s Forecast Opportunity Dashboard =
+&lt;img&gt; tags are typically placed within the body of your HTML in order to display images for the page. The alt attribute may or may not be used within the &lt;img&gt; tag on your page. If alt="[some text]" does not appear within your &lt;img&gt; tags, you should add them to your &lt;img&gt; tags. =
+<div class="be-display-inline-block svg_img plp_header_icon"></div> =
+<div class="showEnabledIconHeader"></div> =
+Change your meta description to include keyword <b>%(keyword)s</b>. Your meta description is found within the HTML <meta name= "description"> tag. It is recommended to keep your meta description to about 150-160 characters. =
+Confirm =
+Have at least one special character (!, @, #, $, %, ^, &, *, +, =) =
+Have at least one special character (!, @, #, $, %, ^, &, *, +, =). =
+Include the keyword <b>%(keyword)s</b> in the alt attribute of the HTML &lt;img&gt; tag. For example, if you wish to include keyword "A", insert alt="A" into the &lt;img&gt; tag in at least one of the images on the page. =
+Input out of range =
+Keywords ranked for %(url)s =
+Please enter a non-decimal value(<=100). =
+Share of Voice reports show you the sites that rank best on keywords in your keyword groups. Your Share of Voice report is updated automatically every week for each keyword group you have created. =
+Show alerts for %(domain_name)s =
+Sorry, we could not enable off-page recommendations for your selected keywords because that would put you over your limit of %(limit)d keywords with <br/> off-page recommendations. To raise your keyword limit, please contact <a href=mailto:success@brightedge.com>success@brightedge.com</a> for custom pricing.<br /> =
+Sorry, we could not enable off-page recommendations for your selected keywords because that would put you over your limit of %(limit)s keywords with <br/> off-page recommendations. To raise your keyword limit, please contact <a href=mailto:success@brightedge.com>success@brightedge.com</a> for custom pricing.<br /> =
+Target Keyword(s): %(kw_list)s =
+The meta description tag can be found within the HTML &lt;meta name="description"&gt; tag. Typically, the HTML &lt;meta name="description&gt; tag can be found near the top of the HTML page in the subsequent lines following the HTML &lt;head&gt; tag. There should only be one &lt;meta name="description"&gt; tag in your page's HTML. =
+Top Performing Keywords for %(url)s =
+View Share of Voice Report =
+Your password must have at least one special character (!, @, #, $, %, ^, &, *, +, =). =
+blogs =
+cafe =
+carousel =
+google plus =
+knowledge =
+news =
+places =
+shopping =
